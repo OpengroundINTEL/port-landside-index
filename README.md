@@ -1,7 +1,4 @@
 # port-landside-index
-crowd source public traffic data pipeline for port landside congestion indexing
-
-
 Port Landside Congestion Index (PLCI)
 
 A lightweight Python service that computes a congestion score for major U.S. ports using public traffic data and optional crowd reports.
