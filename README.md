@@ -1,7 +1,12 @@
 # port-landside-index
+
+
+
 Port Landside Congestion Index (PLCI)
 
 A lightweight Python service that computes a congestion score for major U.S. ports using public traffic data and optional crowd reports.
+
+---
 
 ## Overview
 
@@ -93,6 +98,16 @@ source .venv/bin/activate
 pip install -r requirements.txt
 uvicorn app.main:app --reload
 ```
+
+---
+
+## Documentation
+
+| Document | Description |
+|---|---|
+| [METHODOLOGY.md](./METHODOLOGY.md) | Index definition, baseline model, confidence scoring, limitations |
+| [VALIDATION.md](./VALIDATION.md) | Backtesting against historical congestion events |
+| [DATA_SOURCES.md](./DATA_SOURCES.md) | 511 APIs by state, coverage table, fallback sources |
 
 ---
 
